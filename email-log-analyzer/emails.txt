@@ -1,0 +1,19 @@
+alice@example.com
+bob@example.com
+
+Alice@example.com
+ALICE@example.com
+
+john.doe@example.com
+john.doe.smith@example.com
+
+user@mail.company.com
+user@mail.dev.company.com
+
+invalid-email
+alice@exampleXcom
+
+frank@example.com
+ frank@example.com
+
+luke@example.com
