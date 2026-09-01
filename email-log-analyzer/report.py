@@ -1,11 +1,15 @@
 from operator import itemgetter
 from re import fullmatch
+from sys import exit
 
 
 def main():
 
-    with open("emails.txt", "r") as file:
-        ledger = analyze(file)  # analyze returns ledger: dict
+    try:
+        with open("emails.txt", "r") as file:
+            ledger = analyze(file)  # analyze returns ledger: dict
+    except FileNotFoundError:
+        exit("Emails.txt file not found")
 
     if not ledger:
         raise ValueError("Invalid .txt file")
