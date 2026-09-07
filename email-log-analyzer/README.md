@@ -1,0 +1,1 @@
+Reads an email log file, validates email addresses, counts occurrences, and identifies the top sender.
