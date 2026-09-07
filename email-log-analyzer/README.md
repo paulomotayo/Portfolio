@@ -1,3 +1,3 @@
-# email-log-analyzer
+# Email-Log-Analyzer
 
 ## Reads an email log file, validates email addresses, counts occurrences, and identifies the top sender.
