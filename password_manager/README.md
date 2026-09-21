@@ -8,4 +8,4 @@ A command line password manager built with python object-oriented programming. P
 - Retrieve credentials
 - Update usernames and passwords
 - Delete stored credentials
-- Persistent storage using JSON
+- Storage using JSON 
